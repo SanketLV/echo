@@ -16,8 +16,8 @@ import { api } from "@workspace/backend/_generated/api";
 import { Doc } from "@workspace/backend/_generated/dataModel";
 
 const formSchema = z.object({
-  name: z.string().min(1, "Name is required"),
-  email: z.string().email("Invalid email address"),
+  name: z.string().trim().min(1, "Name is required"),
+  email: z.string().trim().toLowerCase().email("Invalid email address"),
 });
 
 //* Temporary test organizationId, before we add state management
