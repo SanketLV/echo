@@ -1,5 +1,5 @@
 import { ArrowRight, ArrowUp, CheckIcon } from "lucide-react";
-import { cn } from "@workspace/ui/lib/utils.js";
+import { cn } from "@workspace/ui/lib/utils";
 
 interface ConversationStatusIconProps {
   status: "unresolved" | "escalated" | "resolved";
