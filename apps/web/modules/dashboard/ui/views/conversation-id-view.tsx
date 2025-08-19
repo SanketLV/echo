@@ -31,7 +31,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useThreadMessages, toUIMessages } from "@convex-dev/agent/react";
 import { DicebearAvatar } from "@workspace/ui/components/dicebear-avatar";
 import { ConversationStatusButton } from "@/modules/dashboard/ui/components/conversation-status-button";
-import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinte-scroll";
+import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinite-scroll";
 import { InfiniteScrollTrigger } from "@workspace/ui/components/infinite-scroll-trigger";
 import { cn } from "@workspace/ui/lib/utils";
 import { Skeleton } from "@workspace/ui/components/skeleton";

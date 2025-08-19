@@ -15,7 +15,7 @@ import {
 } from "@/modules/widget/atoms/widget-atoms";
 import { useAction, useQuery } from "convex/react";
 import { api } from "@workspace/backend/_generated/api";
-import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinte-scroll";
+import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinite-scroll";
 import { InfiniteScrollTrigger } from "@workspace/ui/components/infinite-scroll-trigger";
 import { DicebearAvatar } from "@workspace/ui/components/dicebear-avatar";
 import {
