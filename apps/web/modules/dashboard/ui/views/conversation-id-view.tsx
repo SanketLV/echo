@@ -32,7 +32,11 @@ import { useThreadMessages, toUIMessages } from "@convex-dev/agent/react";
 import { DicebearAvatar } from "@workspace/ui/components/dicebear-avatar";
 
 const formSchema = z.object({
-  message: z.string().min(1, "Message is required"),
+  message: z
+    .string()
+    .trim()
+    .min(1, "Message is required")
+    .max(4000, "Message is too long"),
 });
 
 const ConversationIdView = ({
