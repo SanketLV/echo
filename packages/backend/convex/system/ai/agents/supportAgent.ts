@@ -3,6 +3,6 @@ import { Agent } from "@convex-dev/agent";
 import { components } from "../../../_generated/api";
 
 export const supportAgent = new Agent(components.agent, {
-  chat: google.chat("gemini-2.5-flash"),
-  instructions: "You are a customer support agent",
+  chat: google.chat("gemini-1.5-flash"),
+  instructions: `You are a customer support agent. use "resolveConverastion" tool when user expresses finalizations of the conversation. Use "escalateConverastion" tool when user expresses frustration, or requests a human explicitly.`,
 });
