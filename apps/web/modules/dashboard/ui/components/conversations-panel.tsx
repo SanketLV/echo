@@ -20,7 +20,7 @@ import { DicebearAvatar } from "@workspace/ui/components/dicebear-avatar";
 import { formatDistanceToNow } from "date-fns";
 import { useAtomValue, useSetAtom } from "jotai/react";
 import { statusFilterAtom } from "@/modules/dashboard/atoms";
-import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinte-scroll";
+import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinite-scroll";
 import { InfiniteScrollTrigger } from "@workspace/ui/components/infinite-scroll-trigger";
 import { Skeleton } from "@workspace/ui/components/skeleton";
 

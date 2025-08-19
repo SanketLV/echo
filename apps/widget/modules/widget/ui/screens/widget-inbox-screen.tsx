@@ -15,7 +15,7 @@ import {
 import { usePaginatedQuery } from "convex/react";
 import { api } from "@workspace/backend/_generated/api";
 import { formatDistanceToNow } from "date-fns";
-import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinte-scroll";
+import { useInfiniteScroll } from "@workspace/ui/hooks/use-infinite-scroll";
 import { InfiniteScrollTrigger } from "@workspace/ui/components/infinite-scroll-trigger";
 
 export const WidgetInboxScreen = () => {
