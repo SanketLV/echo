@@ -76,7 +76,7 @@ const FilesView = () => {
           <div className="space-y-2">
             <h1 className="text-2xl md:text-4xl">Knowledge Base</h1>
             <p className="text-muted-foreground">
-              Upload and manage documents for you AI assistant
+              Upload and manage documents for your AI assistant
             </p>
           </div>
 
