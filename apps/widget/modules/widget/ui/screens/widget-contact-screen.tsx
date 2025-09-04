@@ -3,20 +3,9 @@ import {
   screenAtom,
   widgetSettingsAtom,
 } from "@/modules/widget/atoms/widget-atoms";
-import { useVapi } from "@/modules/widget/hooks/use-vapi";
 import WidgetHeader from "@/modules/widget/ui/components/widget-header";
 import { Button } from "@workspace/ui/components/button";
-import { ArrowLeft, Check, Copy, Mic, MicOff, Phone } from "lucide-react";
-import { cn } from "@workspace/ui/lib/utils";
-import {
-  AIConversation,
-  AIConversationContent,
-  AIConversationScrollButton,
-} from "@workspace/ui/components/ai/conversation";
-import {
-  AIMessage,
-  AIMessageContent,
-} from "@workspace/ui/components/ai/message";
+import { ArrowLeft, Check, Copy, Phone } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
